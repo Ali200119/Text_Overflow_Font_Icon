@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/Forest.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+nav {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 580px;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+nav ul li a:hover {
+    color: #ffd55a;
+}
+
+.name {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    color: white;
+    margin-top: 300px;
+    font-size: xx-large;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.about p {
+    color: gray;
+    opacity: 0.5;
+    width: 27%;
+    text-align: center;
+    font-size: large;
+}
+
+.about p span {
+    color: white;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin-top: 380px;
+}
+
+.line hr {
+    width: 500px;
+    border: 1px solid white;
+    opacity: 0.2;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social .medias {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.social .medias a {
+    text-decoration: none;
+}
+
+.social .medias a i {
+    color: white;
+    font-size: larger;
+}
