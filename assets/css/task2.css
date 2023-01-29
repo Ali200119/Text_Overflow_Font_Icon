@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252b42;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .brand h1 {
+    color: white;
+    font-weight: unset;
+    cursor: default;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    list-style: none;
+    margin-right: 30%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    transition: all 300ms;
+}
+
+nav ul li a:hover {
+    color: #25a5f0;
+}
+
+nav .authentication {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+nav .authentication .login {
+    width: 100px;
+    text-align: center;
+}
+
+nav .authentication .login a {
+    font-weight: unset;
+    color: white;
+    transition: all 300ms;
+    font-size: small;
+    text-decoration: none;
+}
+
+nav .authentication .login a:hover {
+    color: #25a5f0;
+}
+
+nav .authentication .register {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    height: 100%;
+    padding-top: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: #25a5f0;
+    transition: all 300ms;
+    border-radius: 7px;
+}
+
+nav .authentication .register h4 {
+    font-weight: unset;
+    font-size: small;
+}
+
+nav .authentication .register h4 i {
+    margin-left: 7px;
+}
+
+nav .authentication .register:hover {
+    color: #25a5f0;
+    background-color: white;
+}
+
+.welcome {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome h4 {
+    color: #25a5f0;
+    font-size: small;
+    font-weight: unset;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.header h1 {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    width: 25%;
+    line-height: 65px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text p {
+    color: white;
+    width: 27%;
+    text-align: center;
+    font-size: large;
+    line-height: 30px;
+}
+
+.quote {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.quote .get {
+    text-align: center;
+    width: 170px;
+    height: 100%;
+    padding-top: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #25a5f0;
+    transition: all 300ms;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+.quote .get h4 {
+    font-weight: unset;
+    font-size: small;
+}
+
+.quote .get:hover {
+    color: #25a5f0;
+    background-color: white;
+}
+
+.quote .learn {
+    text-align: center;
+    width: 170px;
+    height: 100%;
+    padding-top: 16px;
+    text-decoration: none;
+    color: #25a5f0;
+    transition: all 300ms;
+    border-radius: 7px;
+    border: 1px solid #25a5f0;
+    margin-left: 5px;
+}
+
+.quote .learn h4 {
+    font-weight: unset;
+    font-size: small;
+}
+
+.quote .learn:hover {
+    color: white;
+    background-color: #25a5f0;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 250px;
+}
+
+.courses .cards {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses .cards .card1 {
+    width: 300px;
+    background-color: white;
+    padding-left: 30px;
+}
+
+.courses .cards .card1 .icon {
+    width: 50px;
+    height: 55px;
+    padding-top: 17px;
+    background-color: #ffdcd1;
+    text-align: center;
+    color: #e74041;
+    font-size: large;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+.courses .cards .card1 h5 {
+    margin-top: 20px;
+}
+
+.courses .cards .card1 hr {
+    width: 40px;
+    border: 1px solid #e74041;
+    margin-top: 20px;
+}
+
+.courses .cards .card1 p {
+    color: gray;
+    width: 200px;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.courses .cards .card2 {
+    width: 300px;
+    background-color: white;
+    padding-left: 30px;
+}
+
+.courses .cards .card2 .icon {
+    width: 50px;
+    height: 55px;
+    padding-top: 17px;
+    background-color: #b9e9a8;
+    text-align: center;
+    color: #35c274;
+    font-size: large;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+.courses .cards .card2 h5 {
+    margin-top: 20px;
+}
+
+.courses .cards .card2 hr {
+    width: 40px;
+    border: 1px solid #e74041;
+    margin-top: 20px;
+}
+
+.courses .cards .card2 p {
+    color: gray;
+    width: 200px;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.courses .cards .card3 {
+    width: 300px;
+    background-color: #25a5f0;
+    padding-left: 30px;
+}
+
+.courses .cards .card3 .icon {
+    width: 50px;
+    height: 55px;
+    padding-top: 17px;
+    background-color: white;
+    text-align: center;
+    color: #25a5f0;
+    font-size: large;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+.courses .cards .card3 h5 {
+    margin-top: 20px;
+    color: white;
+}
+
+.courses .cards .card3 hr {
+    width: 40px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.courses .cards .card3 p {
+    color: white;
+    width: 200px;
+    font-size: small;
+    margin-top: 20px;
+}
