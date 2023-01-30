@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Parisienne;
+    src: url("../fonts/Parisienne.ttf");
+}
+
+@font-face {
+    font-family: Gill Sans;
+    src: url("../fonts/Gill-Sans.otf");
+}
+
+@font-face {
+    font-family: Baskerville Italic;
+    src: url("../fonts/Baskerville-Italic.ttf");
+}
+
+.invitation {
+    width: 20%;
+    height: 500px;
+    margin: auto;
+    margin-top: 300px;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.invitation h1 {
+    font-family: Parisienne;
+    font-size: 60px;
+    width: 260px;
+    margin: auto;
+    rotate: -10deg;
+}
+
+.invitation h3 {
+    font-family: Gill Sans;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.invitation .join {
+    font-family: Gill Sans;
+    font-weight: unset;
+    margin-top: 30px;
+}
+
+.invitation h4 {
+    width: 180px;
+    font-family: Gill Sans;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.invitation .house {
+    font-family: Gill Sans;
+    font-weight: unset;
+    margin-top: 15px;
+}
+
+.invitation .reception {
+    font-family: Baskerville Italic;
+    margin-top: 20px;
+}
